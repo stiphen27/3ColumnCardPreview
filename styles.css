@@ -1,0 +1,140 @@
+html{
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    display: flex;
+    width: 65%;
+    margin: 12% auto;
+}
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: hsl(0, 0%, 95%);
+}
+.column1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 45px;
+    border-radius: 10px 0px 0px 10px; 
+}
+.sedanInfo{
+    margin: 30px auto;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.sedanInfo p{
+    margin: 30px 0px 60px 0px;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+.column2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 45px;
+}
+.suvsInfo{
+    margin: 30px auto;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.suvsInfo p{
+    margin: 30px 0px 60px 0px;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+.column3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 45px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.luxuryInfo{
+    margin: 30px auto;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.luxuryInfo p{
+    margin: 30px 0px 60px 0px;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+.learn1{
+    color: hsl(31, 77%, 52%);
+}
+.learn2{
+    color: hsl(184, 100%, 22%);
+}
+.learn3{
+    color: hsl(179, 100%, 13%);
+}
+.button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 90px;
+    width: 50%;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.learn1 :hover{
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid white;
+    color:  hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.learn2 :hover{
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid white;
+    color:  hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+.learn3 :hover{
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid white;
+    color:  hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px){
+    .container{
+        display: block;
+        width: 90%;
+    }
+    .column1{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .column3{
+        border-radius: 0px 0px 10px 10px;
+    }
+    .button{
+        margin-top: 0px;
+    }
+    .sedanInfo p{
+        margin-bottom: 20px;
+    }
+    .suvsInfo p{
+        margin-bottom: 20px;
+    }
+    .luxuryInfo p{
+        margin-bottom: 20px;
+    } 
+}
